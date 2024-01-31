@@ -24,18 +24,18 @@ import NotFound from './Pages/NotFound/NotFound';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/dashboard/" element={<App />}>
+    <Route path="/Dashboard-Admin/" element={<App />}>
       <Route index element={<Dashboard />} />
-      <Route path='/dashboard/team' element={<Team />} />
-      <Route path='/dashboard/contacts' element={<Contacts />} />
-      <Route path='/dashboard/invoices' element={<Invoices />} /> 
-      <Route path='/dashboard/form' element={<Profile />} />
-      <Route path='/dashboard/calender' element={<Calender />} />
-      <Route path='/dashboard/faq' element={<FAQ />} />
-      <Route path='/dashboard/bar' element={<Bar />} />
-      <Route path='/dashboard/pie' element={<Pie />} />
-      <Route path='/dashboard/line' element={<Line />} />
-      <Route path='/dashboard/geography' element={<Geography />} />
+      <Route path='/Dashboard-Admin/team' element={<Team />} />
+      <Route path='/Dashboard-Admin/contacts' element={<Contacts />} />
+      <Route path='/Dashboard-Admin/invoices' element={<Invoices />} /> 
+      <Route path='/Dashboard-Admin/form' element={<Profile />} />
+      <Route path='/Dashboard-Admin/calender' element={<Calender />} />
+      <Route path='/Dashboard-Admin/faq' element={<FAQ />} />
+      <Route path='/Dashboard-Admin/bar' element={<Bar />} />
+      <Route path='/Dashboard-Admin/pie' element={<Pie />} />
+      <Route path='/Dashboard-Admin/line' element={<Line />} />
+      <Route path='/Dashboard-Admin/geography' element={<Geography />} />
       <Route path='*' element={<NotFound/>} />
      
     </Route>
