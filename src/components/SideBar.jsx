@@ -72,23 +72,23 @@ export default function SideBar({ open, handleDrawerClose }) {
     }));
     const theme = useTheme();
     const Array1 = [
-        { "text": "Dashboard", "icon": <HomeOutlinedIcon />, "path": "/Dashboard/" },
-        { "text": "Manage Team", "icon": <PeopleAltOutlined />, "path": "/Dashboard/team" },
-        { "text": "Contacts Information", "icon": <ContactsOutlined />, "path": "/Dashboard/contacts" },
-        { "text": "Invoices Balances", "icon": <ReceiptOutlined />, "path": "/Dashboard/invoices" },
+        { "text": "Dashboard", "icon": <HomeOutlinedIcon />, "path": "/dashboard/" },
+        { "text": "Manage Team", "icon": <PeopleAltOutlined />, "path": "/dashboard/team" },
+        { "text": "Contacts Information", "icon": <ContactsOutlined />, "path": "/dashboard/contacts" },
+        { "text": "Invoices Balances", "icon": <ReceiptOutlined />, "path": "/dashboard/invoices" },
     ];
 
     const Array2 = [
-        { "text": "Profile Form", "icon": <PersonOutlineOutlined />, "path": "/Dashboard/form" },
-        { "text": "Calender", "icon": <CalendarTodayOutlined />, "path": "/Dashboard/calender" },
-        { "text": "FAQ Page", "icon": <HelpOutlineOutlined />, "path": "/Dashboard/faq" },
+        { "text": "Profile Form", "icon": <PersonOutlineOutlined />, "path": "/dashboard/form" },
+        { "text": "Calender", "icon": <CalendarTodayOutlined />, "path": "/dashboard/calender" },
+        { "text": "FAQ Page", "icon": <HelpOutlineOutlined />, "path": "/dashboard/faq" },
     ];
 
     const Array3 = [
-        { "text": "Bar Chart", "icon": <BarChartOutlined />, "path": "/Dashboard/bar" },
-        { "text": "Pie Chart", "icon": <PieChartOutlineOutlined />, "path": "/Dashboard/pie" },
-        { "text": "Line Chart", "icon": <TimelineOutlined />, "path": "/Dashboard/line" },
-        { "text": "Geography Chart", "icon": <MapOutlined />, "path": "/Dashboard/geography" },
+        { "text": "Bar Chart", "icon": <BarChartOutlined />, "path": "/dashboard/bar" },
+        { "text": "Pie Chart", "icon": <PieChartOutlineOutlined />, "path": "/dashboard/pie" },
+        { "text": "Line Chart", "icon": <TimelineOutlined />, "path": "/dashboard/line" },
+        { "text": "Geography Chart", "icon": <MapOutlined />, "path": "/dashboard/geography" },
     ];
 
     const navigate = useNavigate();
