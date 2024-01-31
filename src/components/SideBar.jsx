@@ -72,23 +72,23 @@ export default function SideBar({ open, handleDrawerClose }) {
     }));
     const theme = useTheme();
     const Array1 = [
-        { "text": "Dashboard", "icon": <HomeOutlinedIcon />, "path": "/" },
-        { "text": "Manage Team", "icon": <PeopleAltOutlined />, "path": "/team" },
-        { "text": "Contacts Information", "icon": <ContactsOutlined />, "path": "/contacts" },
-        { "text": "Invoices Balances", "icon": <ReceiptOutlined />, "path": "/invoices" },
+        { "text": "Dashboard", "icon": <HomeOutlinedIcon />, "path": "/Admin-Dashboard/" },
+        { "text": "Manage Team", "icon": <PeopleAltOutlined />, "path": "/Admin-Dashboard/team" },
+        { "text": "Contacts Information", "icon": <ContactsOutlined />, "path": "/Admin-Dashboard/contacts" },
+        { "text": "Invoices Balances", "icon": <ReceiptOutlined />, "path": "/Admin-Dashboard/invoices" },
     ];
 
     const Array2 = [
-        { "text": "Profile Form", "icon": <PersonOutlineOutlined />, "path": "/form" },
-        { "text": "Calender", "icon": <CalendarTodayOutlined />, "path": "/calender" },
-        { "text": "FAQ Page", "icon": <HelpOutlineOutlined />, "path": "/faq" },
+        { "text": "Profile Form", "icon": <PersonOutlineOutlined />, "path": "/Admin-Dashboard/form" },
+        { "text": "Calender", "icon": <CalendarTodayOutlined />, "path": "/Admin-Dashboard/calender" },
+        { "text": "FAQ Page", "icon": <HelpOutlineOutlined />, "path": "/Admin-Dashboard/faq" },
     ];
 
     const Array3 = [
-        { "text": "Bar Chart", "icon": <BarChartOutlined />, "path": "/bar" },
-        { "text": "Pie Chart", "icon": <PieChartOutlineOutlined />, "path": "/pie" },
-        { "text": "Line Chart", "icon": <TimelineOutlined />, "path": "/line" },
-        { "text": "Geography Chart", "icon": <MapOutlined />, "path": "/geography" },
+        { "text": "Bar Chart", "icon": <BarChartOutlined />, "path": "/Admin-Dashboard/bar" },
+        { "text": "Pie Chart", "icon": <PieChartOutlineOutlined />, "path": "/Admin-Dashboard/pie" },
+        { "text": "Line Chart", "icon": <TimelineOutlined />, "path": "/Admin-Dashboard/line" },
+        { "text": "Geography Chart", "icon": <MapOutlined />, "path": "/Admin-Dashboard/geography" },
     ];
 
     const navigate = useNavigate();
